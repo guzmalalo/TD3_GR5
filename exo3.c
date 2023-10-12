@@ -20,5 +20,8 @@ int main(void){
     printf("%d multiple de 3 ? : %c \n", n , n%t== 0 ? 'O': 'N');
     printf("%d > 10 ? : %c \n", n ,n > 10 ? 'O':'N');
 
+    // condition composée
+    printf("Le numéro %d est multiple de 3 ET sup à 10 ? : %c ", n, (n%t==0 && n>10)? 'O':'N');
+
     return 0;
 }
